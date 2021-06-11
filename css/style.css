@@ -1,0 +1,623 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.backgroundd{
+    background-color: 
+    #f7f7f7
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 70px;
+    width: auto;
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+    background: white;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 20px;
+    
+}
+ .logo img{
+     width: 190px;
+     
+}
+.list-item{
+    list-style: none;
+    margin-left: 20px;
+   
+    
+}
+.list-item a{
+    color: #4188b3;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    height: 10px;
+}
+.list-item a:hover{
+    border-radius: 18px;
+    background-color: #f7f7f7;
+    padding: 5px;
+   
+    
+    
+}
+
+/* home */
+.home{
+   
+    height: 75vh;
+}
+.background{
+     background: rgba(0,0,0,0.7) url("../images/home.jpg"); 
+    
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.box{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+.box h1{
+    color: white;
+    font-size: 50px;
+    text-align: center  ;
+}
+.box .two{
+    width: 700px;
+    margin-top: 40px;
+    text-align: center;
+}
+.box .two .button{
+   background: none;
+   border-radius: 8px;
+   border: 2px solid white;
+   color: white;
+   padding: 5px;
+   font-size: large;
+   font-family:'Ubuntu', sans-serif;
+   
+}
+.box .two .button:hover{
+
+    transform: scale(1.5);    
+    cursor: pointer;
+   
+}
+.donation-btn{
+
+text-align: center;
+justify-content: center;
+margin:30px 0px
+
+}
+.donation-btn button{
+ font-size: larger;
+height: 40px;
+width: 170px;
+background-color: #42b8d4;
+font-family:'Ubuntu', sans-serif;
+border: none;
+color: white;
+}
+.donation-btn button:hover{
+    transform: scale(1.5);
+}
+
+.third-section{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin: 50px 0px;
+}
+.third-section h1{
+    font-family: 'Ubuntu', sans-serif;;
+}
+.third-section .one{
+    padding-top: 20px;
+}
+.third-section .two{
+    padding-top: 20px;
+    padding-left: 20px;
+    
+    line-height: 25px;
+}
+.third-section .two p{
+    font-family: 'Ubuntu', sans-serif;;
+    color: gray;
+    font-size: large;
+}
+
+/* fourth-section */
+.fourth-section{
+  
+   
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.card-item{
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+    border: 2px #d2d2d2 solid;
+}
+.card-img{
+  width: 250px;
+  height: 250px;
+ 
+}
+.card-img:hover{
+    opacity: 0.7;
+}
+
+.card-item:hover > .card-btn{
+    display: block;
+    transition: all 0.7s ease-in-out;
+   
+
+ 
+}
+.card-btn{
+    display:none;
+}
+.card-btn{
+    margin: 0px;
+    font-size: larger;
+    height: 40px;
+    
+    background-color: #42b8d4;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    color: white;
+}
+
+/* fifth-section */
+.fifth-section h1{
+    font-size: 300%;
+}
+.fifth-section{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 50px auto;
+    width: 800px;
+    padding: 10px 0px;
+}
+.fifth-section p{
+    line-height: 25px;
+    color: gray;
+    font-size:large;
+}
+
+
+/* sixth-section */
+.sixth-section .first h2{
+    font-size: large;
+    line-height: 35px;
+}
+.sixth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 50px auto;
+    width: 1000px;
+}
+.sixth-section .first{
+    
+    font-size: large;
+    
+}
+.sixth-section .first .heading{
+    font-size: 200%;
+}
+.sixth-section .first p{
+    font-size: large;
+    line-height: 30px;
+}
+.sixth-section .second img{
+    width: 500px;
+    border-radius: 8px;
+}
+.sixth-section .second{
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+/* seventh-section */
+.seventh-section .first{
+    background-image: url("../images/sixthsecond.PNG");
+    
+    background-size: cover;
+    width: 50%;
+}
+.seventh-section .second{
+    background-color: #dedede;
+    width: 50%;
+    padding: 25px 50px;
+    
+}
+.seventh-section .second p{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+    font-size: large;
+    line-height: 35px;
+}
+.seventh-section{
+    display: flex;
+    margin: 50px 0px;
+}
+
+
+
+/* conatct form */
+
+.contact{
+   margin: 0px 0px;
+}
+.contact h1{
+    text-align: center;
+    padding: 0px 0;
+    font-size:200%;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+     font-family: 'Ubuntu', sans-serif; 
+    padding: 30px;
+    background-color: #dedede91;
+    margin: 5px auto;
+    border-radius: 8px;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+.form-input{
+    margin:10px 0px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.third-section .one{
+    width: 280px;
+}
+.btn-form{
+    
+    width: 100px;
+    background-color: #28a644;
+    border-radius: 18px;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.div-form-btn
+{
+    margin:0px auto;
+}
+
+/* footer.. */
+.text-footer{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: large;
+}
+
+footer{
+    background-color:#525659;
+    
+}
+.span{
+    line-height: 25px;
+    font-size: 140%;
+   
+}
+/* burger */
+
+
+@media only screen and (max-width:1100px)
+{
+   
+    .home{
+   
+        height: 70vh;
+    }    
+    .box{
+        padding-top: 200px;
+    }
+    .box .two{
+        margin-top: 50px;
+    }
+
+.card{
+    flex-direction: column;
+}    
+.card-item{
+    margin: 30px auto;
+}
+.card-img {
+    width: 350px;
+    height: 350px;
+}
+.seventh-section{
+    margin: 50px auto;
+    flex-direction: column;
+    width: 500px;
+}
+.seventh-section .first{
+    height: 643px;
+    width:auto;
+}
+.seventh-section .second{
+    width: auto;
+    
+}
+.span{
+    line-height: 25px;
+    font-size: 150%;
+   
+}
+.sixth-section .first{
+    font-size: medium;
+}
+.sixth-section .first p{
+    font-size: medium;
+}
+.sixth-section .first h2{
+    font-size: medium;
+    line-height: 25px;
+}
+
+.sixth-section .second {
+    /* margin-left: 30px; */
+    /* vertical-align: middle; */
+    margin: 0 auto;
+    width: 400px;
+}
+.sixth-section .second img {
+    width: 400px;
+    /* margin: 0 auto; */
+    
+}
+.sixth-section{
+    flex-direction: column-reverse;
+    margin: 50px auto;
+    width: 500px;
+}
+.fifth-section{
+    margin: 30px auto;
+    width: 500px;
+}
+.fifth-section p{
+    font-size: medium;
+}
+.fifth-section h1{
+    font-size: 200%;
+}
+.third-section{
+    flex-direction: column;
+    width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 50px auto;
+    font-size: medium;
+
+}
+.third-section .one{
+    padding-left: 20px;
+}
+.text-footer{
+    font-size: medium;
+}
+.box h1{
+    font-size: 30px;
+}
+.navbar{
+    height: auto;
+   flex-direction: column;
+}
+.navbar ul {
+    display: flex;
+    margin: 10px auto;
+ 
+}
+.list-item a{
+   
+  color: #525659;
+  font-size: medium ;
+}
+.logo img{
+    width: 150px;
+    padding-top: 15px;
+}
+.box .two{
+    width: 500px;
+}
+
+}
+@media only screen and (max-width:530px)
+{
+   
+    
+    .card-img {
+        width: 300px;
+        height: 300px;
+    }
+    .seventh-section{
+        margin: 50px auto;
+        flex-direction: column;
+        width: 300px;
+    }
+    .seventh-section .first{
+        height: 500px;
+        width:auto;
+    }
+    .seventh-section .second{
+        width: auto;
+        
+    }
+    .seventh-section .second p{
+        font-size: small;
+    line-height: 25px;
+    }
+    .span{
+        line-height: 20px;
+        font-size: 105%;
+    }
+    .sixth-section .first{
+        font-size:small;
+    }
+    .sixth-section .first .heading{
+        font-size: 180%;
+    }
+    
+    .sixth-section .first p{
+        font-size: small;
+    }
+    .sixth-section .first h2{
+        font-size: small;
+        line-height: 20px;
+    }
+    
+    .sixth-section .second {
+        /* margin-left: 30px; */
+        /* vertical-align: middle; */
+        margin: 0 auto;
+        width: 300px;
+    }
+    .sixth-section .second img {
+        width: 300px;
+        /* margin: 0 auto; */
+        
+    }
+    .sixth-section{
+        flex-direction: column-reverse;
+        margin: 30px auto;
+        width: 300px;
+    }
+    .fifth-section{
+        margin: 20px auto;
+        width: 300px;
+    }
+    .fifth-section p{
+        font-size: small;
+    }
+    .fifth-section h1{
+        font-size: 150%;
+    }
+    .third-section{
+        flex-direction: column;
+        width: 300px;
+        padding: 8px;
+        border-radius: 8px;
+        margin: 30px auto;
+        font-size: medium;
+    
+    }
+    .third-section .one{
+        padding-left: 10px;
+    }
+    .text-footer{
+        font-size: medium;
+    }
+    .box h1{
+        font-size: 20px;
+    }
+    .navbar{
+        height: auto;
+       flex-direction: column;
+    }
+    .navbar ul {
+        display: flex;
+        margin: 10px auto;
+     
+    }
+    .list-item a{
+       
+      color: #525659;
+      font-size: small ;
+    }
+    .logo img{
+        width: 120px;
+        padding-top: 20px;
+    }
+    .box .two{
+        width: 300px;
+    }
+  
+
+   .icon{
+        width: 70px;
+        height: 70px;
+        padding-top: 50px;
+    }
+    .contact{
+        margin: 0px 0px;
+     }
+     .contact h1{
+         text-align: center;
+         padding: 0px 0;
+         font-size:150%;
+         font-family: 'Ubuntu', sans-serif;;
+     }
+     .form{
+         display: flex;
+         flex-direction: column;
+         width: 300px;
+         margin: auto;
+          font-family: 'Ubuntu', sans-serif; 
+         padding: 10px;
+         background-color: #dedede91;
+         margin: 2px auto;
+         border-radius: 8px;
+     
+     }
+     .form-input{
+        margin:10px 0px;
+        font-size: 15px;
+        padding: 3px;
+        border-radius: 5px;
+    }
+    .box .two .button {
+       
+        font-size: small;
+        
+    }
+    .home{
+   
+        height: 60vh;
+    }
+    .box{
+        padding-top: 100px;
+    }
+    .box .two{
+        margin-top: 20px;
+    }
+    
+}

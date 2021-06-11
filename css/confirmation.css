@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.success p{
+   padding-top: 6px;
+   
+}
+.success{
+    text-align: center;
+    height: 40px;
+    /* justify-content: center;
+     vertical-align: middle; */
+     background-color: #d4edda;
+     color:#457238;
+     border-radius: 5px;
+     width: 99%;
+     margin: 10px auto;
+     font-size: 18px;
+}
+body {
+    background: #eee
+}
+
+.navba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 70px;
+    width: auto;
+    
+    cursor: pointer;
+    background: white;
+}
+.navba ul{
+    display: flex;
+    margin-left: 20px;
+    
+}
+/* @media only screen and (max-width:1100px)
+{
+     */

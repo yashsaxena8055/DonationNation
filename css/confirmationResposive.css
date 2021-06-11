@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.navba{
+    height: auto;
+   flex-direction: column;
+}
+.navba ul {
+    display: flex;
+    margin: 10px auto;
+ 
+}
+.list-item a{
+   
+  color: #525659;
+  font-size: medium ;
+}
+.logo img{
+    width: 150px;
+    padding-top: 15px;
+}
+@media only screen and (max-width:530px)
+{
+    .navba{
+        height: auto;
+       flex-direction: column;
+    }
+    .navba ul {
+        display: flex;
+        margin: 10px auto;
+     
+    }
+    .list-item a{
+       
+      color: #525659;
+      font-size: small ;
+    }
+    .logo img{
+        width: 120px;
+        padding-top: 20px;
+    }
+}
